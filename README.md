@@ -23,12 +23,14 @@ It is a concrete example for package authors who want to inspect the JavaScript 
 - `docs/START_HERE.md`: what the generated files are for
 - `docs/MAINTAINER_WORKFLOW.md`: how PRs, issues, and releases should be handled
 - `.github/workflows/codex-pr-review.yml`: optional review automation
+- `.github/release-note-schema.yml`: example structured release-note schema for package tooling
 
 ## What this preset is trying to optimize
 
 - package-focused review expectations
 - clearer documentation around release and maintainer work
 - better defaults for repositories that will likely publish code to others
+- an optional structured release-note path for teams that automate package release metadata
 
 ## Related project
 
